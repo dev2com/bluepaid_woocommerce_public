@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce bluepaid Gateway\n"
+"POT-Creation-Date: 2015-07-20 14:44+0100\n"
+"PO-Revision-Date: 2015-07-20 15:35+0100\n"
+"Last-Translator: Dev2Com <contact@dev2com.fr>\n"
+"Language-Team: Dev2Com <support@dev2com.fr>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.9\n"
+"X-Poedit-Basepath: C:\\Users\\julien_fixe\\Desktop\\!! BLUEPAID\\BLUEPAID - "
+"CMS\\wordpress\\woocommerce\\MODULES\\A JOUR\\1.1\\woocommerce-gateway-"
+"bluepaid\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_l\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/bluepaid.class.php:46 classes/bluepaid.class.php:117
+msgid "bluepaid"
+msgstr "bluepaid"
+
+#: classes/bluepaid.class.php:107
+msgid "Enable/Disable"
+msgstr "Activer / Désactiver"
+
+#: classes/bluepaid.class.php:108
+msgid "Enable bluepaid"
+msgstr "Activer Bluepaid"
+
+#: classes/bluepaid.class.php:110
+msgid ""
+"This controls whether or not this gateway is enabled within WooCommerce."
+msgstr ""
+"Permet d'activer ou déactiver cette méthode de paiement sur Woocommerce"
+
+#: classes/bluepaid.class.php:114
+msgid "Title"
+msgstr "Titre"
+
+#: classes/bluepaid.class.php:116
+msgid "This controls the title which the user sees during checkout."
+msgstr "Titre présenté à l'utilisateur lors du paiement"
+
+#: classes/bluepaid.class.php:120
+msgid "Description"
+msgstr "Description"
+
+#: classes/bluepaid.class.php:122
+msgid "This controls the description which the user sees during checkout."
+msgstr "Description présentée à l'utilisateur lors du paiement"
+
+#: classes/bluepaid.class.php:126
+msgid "bluepaid Sandbox"
+msgstr "Mode test Bluepaid"
+
+#: classes/bluepaid.class.php:128
+msgid "Place the payment gateway in development mode."
+msgstr "Autoriser les paiements réalisés avec une carte de test bluepaid"
+
+#: classes/bluepaid.class.php:132
+msgid "Merchant ID"
+msgstr "Identifiant de compte d'encaissement"
+
+#: classes/bluepaid.class.php:134
+msgid "This is the merchant ID, received from bluepaid (id boutique)."
+msgstr ""
+"Il s'agit de l'identifiant de compte d'encaissement fourni par Bluepaid (id "
+"boutique)"
+
+#: classes/bluepaid.class.php:138
+msgid "Send Debug Emails"
+msgstr "Envoyer les mails de déboggage"
+
+#: classes/bluepaid.class.php:140
+msgid ""
+"Send debug e-mails for transactions through the bluepaid gateway (sends on "
+"successful transaction as well)."
+msgstr ""
+"Envoyer les e-mails de transactions effectuées par bluepaid (envoyés lorsque "
+"la transaction aboutit)"
+
+#: classes/bluepaid.class.php:144
+msgid "Who Receives Debug E-mails?"
+msgstr "Qui reçoit les e-mails de déboggage"
+
+#: classes/bluepaid.class.php:146
+msgid ""
+"The e-mail address to which debugging error e-mails are sent when in test "
+"mode."
+msgstr ""
+"L'adresse e-mail sur laquelle adresser les mails d'erreur quand vous êtes en "
+"mode test"
+
+#: classes/bluepaid.class.php:205
+#, php-format
+msgid ""
+"bluepaid works by sending the user to %sbluepaid%s to enter their payment "
+"information."
+msgstr ""
+"Bluepaid fonctionne en redirigeant vos utilisateurs vers %sbluepaid%s où ils "
+"indiquent leurs informations bancaires"
+
+#: classes/bluepaid.class.php:272
+#, php-format
+msgid "New order from %s"
+msgstr "Nouvelle commande de %s"
+
+#: classes/bluepaid.class.php:289
+msgid ""
+"Thank you for your order. We are now redirecting you to Bluepaid to make "
+"payment."
+msgstr ""
+"Merci pour votre commande. Vous allez à présent être redirigé vers Bluepaid "
+"pour en effectuer le règlement."
+
+#: classes/bluepaid.class.php:313
+msgid "Payez via Bluepaid"
+msgstr "payez via Bluepaid"
+
+#: classes/bluepaid.class.php:313
+msgid "Cancel order &amp; restore cart"
+msgstr "Annuler la commande &amp; restaurer panier"
+
+#: classes/bluepaid.class.php:346
+msgid ""
+"Thank you for your order, please click the button below to pay with bluepaid."
+msgstr ""
+"Merci pour votre commande, veuillez cliquer sur le bouton ci-dessous pour "
+"payer via Bluepaid."
+
+#: classes/bluepaid.class.php:491 classes/bluepaid.class.php:673
+msgid "ITN payment completed"
+msgstr "ITN payment completed"
+
+#: classes/bluepaid.class.php:492 classes/bluepaid.class.php:674
+#: classes/bluepaid.class.php:684
+msgid "Transaction Bluepaid "
+msgstr "Transaction Bluepaid "
+
+#: classes/bluepaid.class.php:510 classes/bluepaid.class.php:534
+#: classes/bluepaid.class.php:545 classes/bluepaid.class.php:678
+#: classes/bluepaid.class.php:686
+#, php-format
+msgid "Payment %s via IPN."
+msgstr "Paiement %s via IPN."
+
+#: classes/bluepaid.class.php:517
+msgid "ITN payment refused - Transaction "
+msgstr "ITN payment refused - Transaction "
+
+#: classes/bluepaid.class.php:740
+msgid "Amount mismatch"
+msgstr "Le montant ne correpond pas"
+
+#: classes/bluepaid.class.php:741
+msgid "Bad access of page"
+msgstr "mauvais accès à la page"
+
+#: classes/bluepaid.class.php:742
+msgid "Bad source IP address"
+msgstr "Adresser Ip source invalide"
+
+#: classes/bluepaid.class.php:743
+msgid "Failed to connect to bluepaid"
+msgstr "Impossible de se connecter à bluepaid."
+
+#: classes/bluepaid.class.php:744
+msgid "Security signature mismatch"
+msgstr "Signature de sécurité invalide"
+
+#: classes/bluepaid.class.php:745
+msgid "Merchant ID mismatch"
+msgstr "Identifiant de compte ne correspond pas"
+
+#: classes/bluepaid.class.php:746
+msgid "No saved session found for ITN transaction"
+msgstr "Aucune sessions trouvée pour cette transaction"
+
+#: classes/bluepaid.class.php:747
+msgid "Order ID not present in URL"
+msgstr "Identifiant de commande non touvé dans l'url"
+
+#: classes/bluepaid.class.php:748
+msgid "Order ID mismatch"
+msgstr "L'identifiant de commande ne correpond pas"
+
+#: classes/bluepaid.class.php:749
+msgid "This order ID is invalid"
+msgstr "Cet identifiant de commande est invalide"
+
+#: classes/bluepaid.class.php:750
+msgid "Order Number mismatch"
+msgstr "Numéro de commande ne correpsond pas"
+
+#: classes/bluepaid.class.php:751
+msgid "This order has already been processed"
+msgstr "Cette commande a déjà été effectuée"
+
+#: classes/bluepaid.class.php:752
+msgid "PDT query failed"
+msgstr "PDT query failed"
+
+#: classes/bluepaid.class.php:753
+msgid "PDT token not present in URL"
+msgstr "PDT token not present in URL"
+
+#: classes/bluepaid.class.php:754
+msgid "Session ID mismatch"
+msgstr "Identifiant de session invalide"
+
+#: classes/bluepaid.class.php:755
+msgid "Unkown error occurred"
+msgstr "Une erreur inconnue est intervenue"
+
+#: classes/bluepaid.class.php:756
+msgid "Transaction with test card in production"
+msgstr "Transaction effectuée avec une carte de test"
+
+#: classes/bluepaid.class.php:759
+msgid "Payment was successful"
+msgstr "Le paiement a abouti"
+
+#: classes/bluepaid.class.php:760
+msgid "Payment has failed"
+msgstr "La paiement a échoué"
+
+#: classes/bluepaid.class.php:762
+msgid "The payment is pending. Please note, you will receive another Instant"
+msgstr "Le paiement est en attente. Vous allez être informé dans un instant"
+
+#: classes/bluepaid.class.php:763
+msgid " Transaction Notification when the payment status changes to"
+msgstr "Notification de transaction quand le paiement change de "
+
+#: classes/bluepaid.class.php:764
+msgid " \"Completed\", or \"Failed\""
+msgstr "\"Complété\" à \"Echoué\""
+
+#: classes/bluepaid.class.php:883
+msgid "There was a problem connecting to the payment gateway."
+msgstr "Il ya eu un problème lors de la connexion à la plateforme de paiement"
+
+#: classes/bluepaid.class.php:885
+msgid "Empty bluepaid response."
+msgstr "La réponse de Bluepaid est vide"
+
+#: gateway-bluepaid.php:59
+msgid "Settings"
+msgstr "Réglages"
